@@ -29,12 +29,7 @@
 npm install
 2) تشغيل التطبيق
 npx expo start
-3)ثم شغّل مع متغير بيئة:
 
-
-EXPO_PUBLIC_OPENAI_KEY=sk-xxx npx expo start
-
-$env:EXPO_PUBLIC_OPENAI_KEY="sk-xxx"; npx expo start
 
 # ما الذي سيراه المراجع؟
 
