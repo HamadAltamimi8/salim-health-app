@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+##<img width="1024" height="1024" alt="ChatGPT Image Nov 26, 2025, 12_41_09 AM" src="https://github.com/user-attachments/assets/e621e5fb-60ec-4b8b-a428-d568d304f8f2" />
+ ## سَلِيم (SALIM) – مساعد ذكي لنمط الحياة وخطر السكري
 
-1. Install dependencies
+تطبيق موبايل مبني بـ React Native (Expo) يساعد المستخدم على تقييم نمط حياته وخطر الإصابة بالسكري، ويولّد نصائح صحّية عربية قصيرة بالاعتماد على الذكاء الاصطناعي.
 
-   ```bash
-   npm install
-   ```
+# الفكرة باختصار:
+يجيب المستخدم على أسئلة سريعة → نُحوّل الإجابات إلى درجات ومؤشرات مرئية (شريط/Gauge) → نولّد نصيحة ذكية بالعربية حسب الحالة → قريبًا: أحسب أكلك لتحليل الصورة الغذائية (دهون/كارب/بروتين) وعرضها كرسم بياني.
 
-2. Start the app
+# المزايا الرئيسية
 
-   ```bash
-   npx expo start
-   ```
+تسجيل مبسّط للمستخدم (الاسم، تاريخ الميلاد، الجوال) مع حفظ محلي لمرّة واحدة.
 
-In the output, you'll find options to open the app in a
+مؤشر أسلوب الحياة (SLIQ) بدرجة 0–10 مع تفسير لوني (غير صحي/متوسط/صحي).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+مقياس FINDRISC لتقدير خطر السكري خلال 10 سنوات بدرجة 0–26 مع تصنيف (منخفض → مرتفع جدًا).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+نصيحة ذكية بالعربية تُولّد عبر OpenAI API بناءً على نتائج المستخدم.
 
-## Get a fresh project
+تصميم داكن أنيق ومتوافق RTL.
 
-When you're ready, run:
+# قابلية التوسع: شاشة أحسب أكلك (Food Scan) قادمة: التقاط/اختيار صورة وتحليل المغذّيات مع رسم بياني ونصيحة غذائية
 
-```bash
-npm run reset-project
-```
+# التشغيل محليًا
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+المتطلبات: Node.js 18+، وExpo Go على هاتفك.
+# 1) تثبيت الاعتمادات
+npm install
 
-## Learn more
+# 2) تشغيل التطبيق
+npx expo start
+# 3)ثم شغّل مع متغير بيئة:
 
-To learn more about developing your project with Expo, look at the following resources:
+EXPO_PUBLIC_OPENAI_KEY=sk-xxx npx expo start
+$env:EXPO_PUBLIC_OPENAI_KEY="sk-xxx"; npx expo start
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+ما الذي سيراه المراجع؟
 
-## Join the community
+شاشة ترحيبية + زر “ابدأ الفحص”.
+![WhatsApp Image 2025-11-26 at 1 50 23 PM](https://github.com/user-attachments/assets/13efed8f-19f1-4700-82cf-cf06962216ed)
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+اختيار نوع التقييم: “مؤشر أسلوب الحياة” أو “مقياس FINDRISC”.
+![WhatsApp Image 2025-11-26 at 1 52 29 PM](https://github.com/user-attachments/assets/fff37324-b044-4b7e-a0fe-95e47cacd436)
+
+
+إدخال بيانات سريعة → درجة + مؤشر لوني + نصيحة عربية قصيرة.
+![WhatsApp Image 2025-11-26 at 7 42 51 PM](https://github.com/user-attachments/assets/cc85a44d-f5d7-424b-91b9-956af4f5e17b)
+
+
+(قريبًا) أحسب أكلك: تصوير الوجبة وتحليلها مع رسم بياني ونصيحة غذائية.
