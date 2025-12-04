@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Salim",
+    "slug": "salim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0F18"
+    },
+    "ios": {
+      "bundleIdentifier": "com.hamad.salim",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.hamad.salim",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0A0F18"
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a9a57a72-7d6b-4630-b89f-25fcd53afc84"
+      }
+    },
+    "owner": "hamad_altamimi",
+    "plugins": [  ]
+  }
+}
