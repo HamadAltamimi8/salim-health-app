@@ -28,28 +28,31 @@
 npm install
 2) تشغيل التطبيق
 npx expo start
+
 3)ثم شغّل مع متغير بيئة:
 
+
 EXPO_PUBLIC_OPENAI_KEY=sk-xxx npx expo start
+
 $env:EXPO_PUBLIC_OPENAI_KEY="sk-xxx"; npx expo start
 
-# ما الذي سيراه المراجع؟
+## ما الذي سيراه المراجع؟
 
-شاشة ترحيبية + زر “ابدأ الفحص”.
+# شاشة ترحيبية + زر “ابدأ الفحص”.
 
 ![WhatsApp Image 2025-11-26 at 1 50 23 PM](https://github.com/user-attachments/assets/13efed8f-19f1-4700-82cf-cf06962216ed)
 
 
 
-اختيار نوع التقييم: “مؤشر أسلوب الحياة” أو “مقياس FINDRISC”.
+# اختيار نوع التقييم: “مؤشر أسلوب الحياة” أو “مقياس FINDRISC”.
 
 ![WhatsApp Image 2025-11-26 at 1 52 29 PM](https://github.com/user-attachments/assets/fff37324-b044-4b7e-a0fe-95e47cacd436)
 
 
-إدخال بيانات سريعة → درجة + مؤشر لوني + نصيحة عربية قصيرة.
+# إدخال بيانات سريعة → درجة + مؤشر لوني + نصيحة عربية قصيرة.
 
 ![WhatsApp Image 2025-11-26 at 7 42 51 PM](https://github.com/user-attachments/assets/cc85a44d-f5d7-424b-91b9-956af4f5e17b)
 
 
-(قريبًا) أحسب أكلك: تصوير الوجبة وتحليلها مع رسم بياني ونصيحة غذائية.
+# (قريبًا) أحسب أكلك: تصوير الوجبة وتحليلها مع رسم بياني ونصيحة غذائية.
 
