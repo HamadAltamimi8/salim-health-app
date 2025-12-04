@@ -29,7 +29,6 @@
 npm install
 2) تشغيل التطبيق
 npx expo start
-
 3)ثم شغّل مع متغير بيئة:
 
 
